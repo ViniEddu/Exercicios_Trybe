@@ -7,7 +7,7 @@ const arrayMenuItem = ['Home', 'Photos', 'Videos', 'Biography'];
 // Função para criação de uma li com a classe em todos os itens
 const criaLi = (value) => {
     return (
-        <li className='menu-item'>{value}</li>
+        <li className='menu-item' key={value}>{value}</li>
     )
 };
 
@@ -27,11 +27,11 @@ class Header extends React.Component {
         return (
         <header className='cabecalho'>
             <div className='titulo-imagem'>
+                <img className='logo' src={logo} alt="teste"/>
                 <h1>Conteudos de Front-End</h1>
-                <img src={logo} alt="teste"/>
             </div>
             <nav className='navegacao'>
-                <ol>
+                <ol className='menu-list'>
                     {menuList()}
                 </ol>
             </nav>

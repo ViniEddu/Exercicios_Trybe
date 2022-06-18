@@ -2,16 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-};
+}
+
+/* Conteúdo CSS sobre o cabeçalho ABAIXO */
 
 .cabecalho {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aquamarine;
-};
+    border-bottom: 0.4px solid black;
+}
 
 .titulo-imagem {
     display: flex;
     align-items: center;
-};
+}
+
+.logo {
+    width: 80px;
+    margin: 30px;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-item {
+    border-radius: 8px;
+    border-right: 0.2px solid black;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* Conteúdo CSS sobre o cabeçalho ACIMA */
+
+/* Conteúdo CSS sobre o MAIN ABAIXO */
+
+
+
+/* Conteúdo CSS sobre o MAIN ACIMA */
