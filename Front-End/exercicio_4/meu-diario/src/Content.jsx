@@ -86,7 +86,7 @@ class Content extends React.Component {
         return (
             <main className='conteudo-principal'>
                 {criaBloco()}
-                {criaBlocoLateral()}               
+                {criaBlocoLateral()}            
             </main>
         )
     }
