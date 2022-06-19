@@ -10,6 +10,7 @@ export const Td = styled.td`
     svg {
         width: 18px;
         height: 18px;
+        cursor: pointer;
     }
 
 `;
