@@ -10,9 +10,9 @@ const Content = () => {
             return (
                 <C.Card>
                     <span>
-                    <C.Paragraph>Nome: {name}</C.Paragraph>
-                    <C.Paragraph>Tipo: {type}</C.Paragraph>
-                    <C.Paragraph>Peso: {averageWeight.value} {averageWeight.measurementUnit}</C.Paragraph>
+                    <C.Paragraph>Name: {name}</C.Paragraph>
+                    <C.Paragraph>Type: {type}</C.Paragraph>
+                    <C.Paragraph>Weight: {averageWeight.value} {averageWeight.measurementUnit}</C.Paragraph>
                     </span>
                     <img src={image} alt="texto alternativo"/>
                 </C.Card>
