@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 500px;
+    margin: 50px auto;
+    width: 1200px;
     height: 250px;
     background-color: #472643;
     box-shadow: 1px 2px 3px #f3eae8;
@@ -12,6 +13,7 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.button`
+    width: 150px;
     padding: 15px;
     background-color: #a25a7f;
     color: #f6adcf;
