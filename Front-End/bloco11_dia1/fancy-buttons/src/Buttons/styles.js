@@ -13,7 +13,8 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.button`
-    width: 150px;
+    width: 250px;
+    height: 80px;
     padding: 15px;
     background-color: #a25a7f;
     color: #f6adcf;
